@@ -1,3 +1,5 @@
+Declare,x,Integer
+Declare,heyThere,Integer
 Store,1,x
 Store,2,x
 Store,3,x

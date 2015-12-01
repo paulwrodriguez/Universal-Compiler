@@ -278,6 +278,9 @@ public class Semantic {
 		return e;
 	}
 	private static SemanticRecord DeclareInt(SemanticRecord e) throws ErrorException{
+		if(!LookUp(Extract(e))) {
+			Generate("Declare", Extract(e), "Integer");
+		}
 		EnterIntoSymbolTable(Extract(e));
 //		CheckId(Extract(e));
 		return e;

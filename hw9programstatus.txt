@@ -181,7 +181,7 @@ Semantic Stack  (13 ) : [SemiColon] [INTEGERSYM] [<var>] [DECLARESYM] [<statemen
 EOP                   : [8,10,14,14] 
 Symbol Table          : [Id|Scope_Num]
 StringSpace           : 
-Generated Code        : 
+Generated Code        : Declare,x,Integer
 *****************************************************
 
 
@@ -325,7 +325,7 @@ EOP                   : [11,13,17,17]
 Symbol Table          : [Id|Scope_Num]
                         [x | 1]
 StringSpace           : [x]
-Generated Code        : 
+Generated Code        : Declare,heyThere,Integer
 *****************************************************
 
 
