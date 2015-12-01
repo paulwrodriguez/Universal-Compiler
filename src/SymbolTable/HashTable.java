@@ -66,6 +66,8 @@ public class HashTable {
 		for(char c : name.toCharArray()){
 			bi = bi.multiply((BigInteger.valueOf((long)c)));
 		}
+		BigInteger largePrime = new BigInteger("982451653");
+		bi = bi.multiply(largePrime);
 		if(Debugger.SYMBOLTABLE){
 			System.out.println("hastable hash [" + bi + " ]");
 		}
