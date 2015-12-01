@@ -1,0 +1,23 @@
+Letter Digit Blank + - = : , ; ( ) _ Tab EOL Other
+1 2 3 14 4 6 17 18 19 20 3 3
+1 1 11 11 11 11 11 11 11 11 11 1 11 11
+12 2 12 12 12 12 12 12 12 12 12 12 12 12
+13 13 3 13 13 13 13 13 13 13 13 13 3 3
+21 21 21 21 5 21 21 21 21 21 21 21 21
+5 5 5 5 5 5 5 5 5 5 5 5 5 15 5
+16
+
+
+
+
+ Id = Letter (Letter | Digit | _)*
+ IntLiteral = Digit+
+ EmptySpace = (Blank | Eol | Tab)+
+ PlusOp
+ Comment = -- Not(Eol)*Eol
+ AssignOp
+ Comma
+ SemiColon
+ LParen
+ Rparen
+ MinusOp

@@ -1,0 +1,30 @@
+BEGIN --SOMETHING UNUSUAL
+declare x Integer;
+declare heyThere Integer;
+x := 1;
+	BEGIN
+	declare x integer;
+	x := 2;
+		BEGIN
+		declare x Integer;
+		x := 3;
+			BEGIN
+			declare x Integer;
+			x := 4;
+			END
+		END
+	END
+	BEGIN
+	declare x Integer;
+	x := 5;
+	END
+	BEGIN
+	declare x Integer;
+	x := 6;
+	END
+	BEGIN
+	declare x Integer;
+	x := 7;
+	END
+write(x);
+END

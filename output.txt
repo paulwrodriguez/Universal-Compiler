@@ -1,0 +1,13 @@
+BeginSym
+Id
+AssignOp
+Id
+PlusOp
+LParen
+IntLiteral
+MinusOp
+Id
+RParen
+SemiColon
+EndSym
+EofSym

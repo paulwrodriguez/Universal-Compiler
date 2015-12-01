@@ -1,0 +1,6 @@
+BEGIN
+Read(a+b);
+Write(C);
+A:=3;
+END
+

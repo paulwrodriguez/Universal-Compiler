@@ -1,0 +1,24 @@
+**Start of : hw7output.txt grammar**
+[<program>][begin] =1
+[<stmt list>][read] =2[<stmt list>][Id] =2[<stmt list>][write] =2
+[<statement tail>][read] =3[<statement tail>][Id] =3[<statement tail>][write] =3
+[<statement tail>][end] =4
+[<statement>][Id] =5
+[<statement>][read] =6
+[<statement>][write] =7
+[<id list>][Id] =8
+[<id tail>][,] =9
+[<id tail>][)] =10
+[<expr list>][IntLiteral] =11[<expr list>][(] =11[<expr list>][Id] =11
+[<expression tail>][,] =12
+[<expression tail>][)] =13
+[<expression>][IntLiteral] =14[<expression>][(] =14[<expression>][Id] =14
+[<primary tail>][+] =15[<primary tail>][-] =15
+[<primary tail>][)] =16[<primary tail>][,] =16[<primary tail>][;] =16
+[<primary>][(] =17
+[<primary>][Id] =18
+[<primary>][IntLiteral] =19
+[<add op>][+] =20
+[<add op>][-] =21
+[<system goal>][begin] =22
+

@@ -1,0 +1,18 @@
+<SystemGoals> -> 14
+<Program> -> 1
+<StatementList> -> 2
+<Statment> -> 3
+<Ident> -> 10
+<Expression> -> 8
+<Primary> -> 9
+<Ident> -> 10
+<AddOp> -> 12
+<Expression> -> 8
+<Primary> -> 9
+<Expression> -> 8
+<Primary> -> 11
+<AddOp> -> 13
+<Expression> -> 8
+<Primary> -> 9
+<Ident> -> 10
+Halt

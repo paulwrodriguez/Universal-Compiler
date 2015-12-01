@@ -1,0 +1,15 @@
+TokenText  TokenCode 
+BEGINSYM   1         
+EmptySpace 13        
+Id         11        
+AssignOp   16        
+Id         11        
+PlusOp     14        
+LParen     19        
+IntLiteral 12        
+MinusOp    21        
+Id         11        
+RParen     20        
+SemiColon  18        
+EmptySpace 13        
+ENDSYM     2         

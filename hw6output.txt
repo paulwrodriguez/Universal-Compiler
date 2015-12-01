@@ -1,0 +1,7 @@
+Predict Set: <nonterminal> -> Y1, Y2, ... Yn
+Predict(<S>->a<S>e)  = {a,}
+Predict(<S>-><B>)  = {b,c,d,}
+Predict(<B>->b<B>e)  = {b,}
+Predict(<B>-><C>)  = {c,d,}
+Predict(<C>->c<C>e)  = {c,}
+Predict(<C>->d)  = {d,}

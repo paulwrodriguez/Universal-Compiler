@@ -1,0 +1,19 @@
+functions to add
+	production.lhs
+	production.rhs
+	
+	symbol.equals
+	symbol.hashcode
+	
+	production.equals 
+	productions.hascode
+	
+	grammer.equals
+	grammer.hashcode
+	
+	
+data structure
+	
+Notes:
+	can add all symbols into set trivially
+		will need to remove lampda

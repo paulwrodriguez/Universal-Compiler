@@ -1,0 +1,9 @@
+Store,1,x
+Store,2,x
+Store,3,x
+Store,4,x
+Store,5,x
+Store,6,x
+Store,7,x
+Write,x,Integer
+Halt

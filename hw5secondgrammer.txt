@@ -1,0 +1,9 @@
+<Prog> -> <Stmts> EOF
+<Stmts> -> <Stmt> <Stmts>
+<Stmts> -> lampda
+<Stmt> -> id = <Expr>;
+<Stmt> -> if (<Expr>) <Stmt>
+<Expr> -> id <Etail>
+<Etail> -> + <Etail>
+<Etail> -> - <Expr>
+<Etail> -> lampda
